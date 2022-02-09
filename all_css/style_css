@@ -1,4 +1,7 @@
-p{
-    background-color: black;
-    color: white;
+body{
+    p{
+        background-color: black;
+        color: white;
+    }
+    
 }

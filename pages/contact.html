@@ -9,7 +9,34 @@
 </head>
 <body>
     <h1>This is Our Contact Page</h1>
-    
+    <form action="mailto:bitekechy@gmail.com" method="post" enctype="text/plain">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname"><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname"><br>
+        <label for="phone">Phone Number</label>
+        <input type="number" name="number" id="08080000000"><br>
+        <label for="email">Email</label>
+        <input type="email" id="email"><br>
+        <label for="Gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male">Male
+        <input type="radio" id="female" name="gender" value="female">Female
+        <input type="radio" id="rather not say" name="gender" value="rather not day">Rather not say
+        <br>
+        <label for="favpoets">Favourite Poets</label>
+        <select name="dropdown">Favourite Poets
+            <option value="" selected>Choose one</option>
+            <option value="maya">Maya Angelou</option>
+            <option value="frost">Robert Frost</option>
+            <option value="poe">Edgar Alan Poe</option>
+            <option value="shakespeare">William Shakespeare</option>
+            <option value="dickinson">Emily Dickinson</option>
+            <option value="hughes">Langston Hughes</option></select>
+        <br>
+        <label for="more">Anything Else You Want to Say?</label><br>
+        <textarea name="more" id="tell us more" cols="30" rows="10">I want to say that I am...</textarea><br>
+        <input type="submit" name="submit" value="Sumbit">
+    </form>
     <hr>
     <a href="../index.html">Return to Homepage</a>
     
